@@ -10,7 +10,7 @@ public static void main(String[] args)
 {
 	Resource resource = new ClassPathResource("Stream.xml");
 	BeanFactory beanFactory = new XmlBeanFactory(resource);
-	Vehicle vehicle = (Vehicle) beanFactory.getBean("Vehicle");
+	Vehicle vehicle = (Vehicle) beanFactory.getBean("v");
 	vehicle.drive();
 	
 	//Car car = new Car();
