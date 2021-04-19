@@ -9,5 +9,34 @@
 <bean id="studentbean" class="basic.Student">  
 <property name="name" value="himani"></property>  
 </bean>  
+<bean id="a1" class="constructor.injection.Address">
+
+<constructor-arg value ="kadapa"> </constructor-arg>
+<constructor-arg value ="ap"> </constructor-arg>
+
+<constructor-arg value ="india"> </constructor-arg>
+
+
+</bean>
+<bean id = "a" class ="constructor.injection.Employee">
+<constructor-arg value="111"></constructor-arg>  
+<constructor-arg value="java"></constructor-arg> 
+
+<constructor-arg>  
+<list>  
+<value>perform factorial</value>  
+<value>perform the installation </value>  
+<value>do practise on java</value>  
+</list>  
+</constructor-arg>  </bean>
+<bean id ="e" class="constructor.injection.Employee">
+<constructor-arg value ="10" type = "int"> </constructor-arg>
+<constructor-arg value ="himani"> </constructor-arg>
+
+
+<constructor-arg>
+<ref bean ="a"/>
+</constructor-arg>
   
+</bean>
 </beans>  
