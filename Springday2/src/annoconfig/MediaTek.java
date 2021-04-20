@@ -1,15 +1,16 @@
 package annoconfig;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Snapdragon  implements MobileProcessor{
+@Primary
+public class MediaTek implements MobileProcessor{
 
 	@Override
 	public void process() {
-		System.out.println("snapdragon processor");
 		// TODO Auto-generated method stub
-		
+		System.out.println("mediatek processor");
 	}
 
 }
