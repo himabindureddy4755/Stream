@@ -1,8 +1,10 @@
 package annoconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 @Component
+@Qualifier("MediaTek")
 public class Samsung {
 	@Autowired
 	MobileProcessor cpu;
