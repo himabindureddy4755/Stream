@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring"/>
+	<classpathentry kind="lib" path="C:/Users/hp/Downloads/aspectjtools-1.9.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -10,7 +10,7 @@ public class App {
 		ApplicationContext context = new ClassPathXmlApplicationContext("stream.xml");
 		//Vehicle v =(Car)context.getBean("car");
 		//v.ride();
-		Tyre tyre =(Tyre)context.getBean("tyre");
+		Tyre tyre =(Tyre)context.getBean("Tyre");
 		System.out.println(tyre);
 	}
 
