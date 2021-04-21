@@ -1,14 +1,22 @@
 package aop.main;
 
 public class Circle {
-	String name;
+	
+		String name;
 
-	public String getName() {
-		return name;
-	}
+		public Circle() {System.out.println("in circle constructor");}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+		public String getName() {
+			return name;
+		}
+	 public void setName(String name) {
+			this.name = name;
+		}
+
+		public int getDia() {
+			return 5;
+		}
+
+
 
 }
